@@ -28,10 +28,12 @@ pip install numpy pandas matplotlib scikit-learn seaborn ucimlrepo
 ```
 
 ## How to run
-Part 1: Custom Gradient Descent
-
+### Part 1: Custom Gradient Descent
+```bash
 python part1.py
+```
 
-Part 2: Scikit-learn SGDRegressor
-
+### Part 2: Scikit-learn SGDRegressor
+```bash
 python part2.py
+```
