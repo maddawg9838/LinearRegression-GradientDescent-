@@ -4,7 +4,22 @@
 This project implements linear regression in two parts:
 
 1. **Part 1:** Custom implementation of linear regression using gradient descent (no ML libraries)
+  - Libraries Used:
+    - numpy
+    - pandas
+    - matplotlib (pyplot)
+    - seaborn
+    -  sklearn.model_selection (train_test_split)
+    -  sklearn.preprocessing (StandardScaler)
+    -  sklearn.metrics (mean_squared_error, mean_absolute_error, r2_score, explained_variance_score)
 2. **Part2:** Linear regression using scikit-learn's 'SGDRegressor'.
+  - Libraries Used:
+    - pandas
+    - matplotlib (pyplot)
+    -  sklearn.model_selection (train_test_split)
+    -  sklearn.preprocessing (StandardScaler)
+    -  sklearn.metrics (mean_squared_error, mean_absolute_error, r2_score, explained_variance_score)
+    -  sklearn.linear_model (SGDRegressor)
 
 Both parts use the **Daily Demand Forecasting Orders** datasets. 
 
@@ -28,6 +43,18 @@ pip install numpy pandas matplotlib scikit-learn seaborn ucimlrepo
 ```
 
 ## How to run
+### Create and activate a Virtual Environment
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Mac/Linux
+.venv\Scripts\activate      # Windows
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
 ### Part 1: Custom Gradient Descent
 ```bash
 python part1.py
