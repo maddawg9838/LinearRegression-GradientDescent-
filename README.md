@@ -49,8 +49,8 @@ source .venv/bin/activate   # Mac/Linux
 pip install -r requirements.txt
 ```
 
-### Additional Information
-While running the program, plots will appear. You need to close the plot windows to continue the program.
+### Important Information
+**While running the program, plots will appear. You need to close the plot windows to continue the program.**
 
 ### Part 1: Custom Gradient Descent
 ```bash
