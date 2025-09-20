@@ -36,12 +36,6 @@ Preprocessing includes:
 ### Python Version
 - Python 3.9 or higher (recommended)
 
-### Install the required libraries with:
-
-```bash
-pip install numpy pandas matplotlib scikit-learn seaborn ucimlrepo
-```
-
 ## How to run
 ### Create and activate a Virtual Environment
 ```bash
@@ -50,7 +44,7 @@ source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
 ```
 
-### Install Dependencies
+### Install Required Libraries
 ```bash
 pip install -r requirements.txt
 ```
